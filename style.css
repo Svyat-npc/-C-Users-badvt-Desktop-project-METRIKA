@@ -1,6 +1,13 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+  --side-padding: clamp(20px, 6vw, 125px);
+  --content-width: clamp(320px, 90vw, 1900px);
+}
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Manrope", sans-serif;
@@ -361,4 +368,115 @@ padding-left: 125px;
  font-size: 20px;
  font-weight: 400;
  bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px auto;
+  }
+
+  .logo-img {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .nav-header {
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .main-text h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+    padding: 0 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .p-img {
+    margin: 0 20px;
+    height: 300px;
+  }
+
+  .p-img p {
+    font-size: 1rem;
+    left: 20px;
+    top: auto;
+    bottom: 20px;
+    max-width: 90%;
+  }
+
+  .body-container {
+    padding: 0 20px;
+  }
+
+  .body-container p {
+    font-size: 1.5rem;
+  }
+
+  .project-info-container {
+    padding: 0 20px;
+  }
+
+  .uslugi-container {
+    padding: 0 20px;
+  }
+
+  .uslugi-container p {
+    font-size: 1.2rem;
+    max-width: 100%;
+  }
+
+  .project-peizag {
+    height: 500px;
+    background-position: center;
+  }
+
+  .project-peizag p {
+    left: 20px;
+    top: auto;
+    bottom: 20px;
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  .Contacts {
+    height: auto;
+    padding: 20px;
+  }
+
+  .Contacts h2,
+  .PHONE,
+  .Zvonok,
+  .Contacts a {
+    padding-left: 0;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .container-all-info {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .nav-bottom {
+    position: static;
+    flex-direction: column;
+    gap: 15px;
+    transform: none;
+    margin-bottom: 20px;
+  }
+
+  .name-bottom p {
+    position: static;
+    transform: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
