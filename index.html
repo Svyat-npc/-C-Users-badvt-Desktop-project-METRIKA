@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>METRIKA</title>
+    <link rel="resetscc" href="reset.scc">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +15,12 @@
         <div class="logo-img">
             <img src="image/Метрика.png" alt="">
         </div>   
-       <div class="nav">
-          <p>О НАС</p>
-          <p>ПРОЕКТЫ</p>
-          <p>УСЛУГИ</p>
-          <p>КОНТАКТЫ</p>
-       </div>
+       <nav class="nav-header">
+          <p><a href="#about">О НАС</a></p>
+          <p><a href="#project">ПРОЕКТЫ</a></p>
+          <p><a href="#servisec">УСЛУГИ</a></p>
+          <p><a href="#contact">КОНТАКТЫ</a></p>
+       </nav>
     </div>
     <div class="main-container">
         <div class="main-text">
@@ -30,16 +31,18 @@
         </div>
     </div>
     <div class="body-container">
-        <div class="description-text">
+        <section id="about">
             <h2>О НАС</h2>
-            <p>Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-          <div class="button">
+        </section>
+        <p>Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+       <div class="button">
            <p> Посмотреть услуги</p>
-          </div>
         </div>
     </div>
     <div class="project-info-container">
-        <h2>ПРОЕКТЫ</h2>
+        <section id="project">
+         <h2>ПРОЕКТЫ</h2>
+        </section>
         <div class="Photo-PravBEREG">
            <img src="image/PRAVOBEREG.png" alt="">
            <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
@@ -61,11 +64,48 @@
     </div>
     <div class="USLUGI">
         <div class="uslugi-container">
-            <h2>УСЛУГИ</h2>
-            <div class="Photo-plan">
+            <section id="servisec">
+              <h2>УСЛУГИ</h2>
+            </section>
+            <div class="Phone-plan">
                <img src="image/ПЛАНИРОВАНИЕ.png" alt="">
+               <p>Планировочное решение — от 2500₽/м²</p>
+            </div>
+            <div class="Phone-disain">
+                <img src="image/Дизайн-проект.png" alt="">
+                <p>Дизайн-проект — от 3000₽/м²</p>
+            </div>
+            <div class="Phone-Nadzor">
+                <img src="image/Авторский-надзор.png" alt="">
+                <p>Авторский надзор — от 30 000₽ в месяц</p>
+            </div>
+            <div class="Phone-komplektacia">
+                <img src="image/Комплектация-скидка.png" alt="">
+                <p>Комплектация — 5% от стоимости спецификации</p>
             </div>
         </div>
-    </div>
+        <div class="project-peizag">
+            <p>Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
+        </div>
+        <div class="Contacts">
+           <img class="PHONE" src="image/PHONE.png" alt="">
+           <section id="contact">
+             <h2>КОНТАКТЫ</h2> 
+           </section>
+           <a class="Zvonok" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
+           <a href="mailto:hello@mail.com">Hello@mail.ru</a>
+        </div>
+    </div>  
+    <div class="container-all-info">
+        <nav class="nav-bottom">
+          <p><a href="#about">О НАС</a></p>
+          <p><a href="#project">ПРОЕКТЫ</a></p>
+          <p><a href="#servisec">УСЛУГИ</a></p>
+          <p><a href="#contact">КОНТАКТЫ</a></p>
+        </nav>
+        <div class="name-bottom">
+                <p>студия дизайна интерьера Метрика — 2023</p>
+        </div>
+    </div>  
 </body>
 </html>

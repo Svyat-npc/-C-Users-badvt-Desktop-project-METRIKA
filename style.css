@@ -1,221 +1,364 @@
-body{
-    width: 100%;
-    font-family:  "Manrope", sans-serif; 
-}
-.header-container {
-display: flex;
-align-items: flex-start; 
-position: relative;
-width: 1151px;
-height: 25px;
-margin-top: 32.82px;
-margin-left: 124.65px;
+html {
+  scroll-behavior: smooth;
 }
 
-.nav {
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1900px;
+  justify-content: center;
+}
+
+.header-container {
   display: flex;
-  gap: 60px; 
-  padding-left: 546px;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin: 26px auto 60px;
+
+}
+.logo-img{
+  margin: auto 0;
+  padding-left: 125px;
+}
+
+
+
+.nav-header {
+  display: flex;
+  padding-left: 810px;
+  padding-right: 124px;
+  gap: clamp(30px, 6vw, 60px);
+  cursor: pointer;
+
+}
+.nav-header p a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.main-container {
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 150px;
+  justify-content: center;
+}
+
+.main-text h1 {
+  line-height: 1.1;
+  max-width: 956px;
+  height: 120px;
+  padding-left: 125px;
+  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing:-2px;
+}
+
+.p-img {
+  position: relative;
+  background-image: url('image/first-phone.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 410px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 125px;
+  margin-right: 125px;
+ 
+
+}
+
+.p-img p {
+  position: absolute;
+  color: white;
+  max-width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  left: 40px;
+  top:289px;
+}
+
+.body-container {
+  padding-inline: 20px;
+  padding-left: 125px;
+  margin-bottom: 150px;
+}
+
+
+.body-container h2{
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+.body-container p{
+  color: rgba(0, 0, 0, 1);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  max-width: 1048px;
+}
+
+.button {
+  width: 100%;
+  max-width: 255px;
+  height: 67px;
+  margin-top: 30px;
+  border: 2px solid rgba(173, 24, 24, 1);
   cursor: pointer;
   transition: 0.3s ease;
 }
 
-.nav p {
+.button:hover {
+  background-color: rgba(173, 24, 24, 1);
+}
+
+.button p {
+  color: rgba(173, 24, 24, 1);
+  font-size: clamp(1rem, 2vw, 20px);
+  text-align: center;
+  line-height: 67px;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.button p:hover {
+  color: white;
+}
+
+.project-info-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.project-info-container h2{
+  width: 100%;
+ color: rgba(0, 0, 0, 1);
+ font-size: 18px;
+ font-weight: 400;
+
+}
+
+.Photo-PravBEREG img,
+.Photo-NORVEJ img,
+.Photo-OZERA img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 90px;
+ 
+
+}
+
+.Photo-PravBEREG p,
+.Photo-NORVEJ p,
+.Photo-OZERA p {
+  font-size: clamp(1.5rem, 4vw, 30px);
+  line-height: 1.2;
+}
+a{
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+color: rgba(173, 24, 24, 1);
+
+}
+.button-all {
+  width: 100%;
+  display: block;
+  height: auto;
+  border: 1px solid rgba(173, 24, 24, 1);
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+
+.button-all:hover {
+  background-color: rgba(173, 24, 24, 1);
+}
+
+.button-all p {
+  font-size: clamp(1.5rem, 4vw, 30px);
+  color: rgba(173, 24, 24, 1);
+  transition: color 0.3s ease;
+}
+
+.button-all p:hover {
+  color: white;
+}
+.uslugi-container{
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(18, 18, 18, 1);
+  padding-left: 125px;
+  padding-right: 125px;
+}
+.uslugi-container h2{
+  color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 400;
-  margin: 0;
+  line-height: 100%;
+  padding-bottom: 34px;
+  padding-top: 150px;
+}
+.uslugi-container p{
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: left;
+  margin-bottom: 60px;
+ max-width: 661px;
+  height: 41px;
+ letter-spacing: -1px;
+}
+.Phone-plan img,
+.Phone-disain img,
+.Phone-Nadzor img,
+.Phone-komplektacia img{
+  width: 100%;
+  height: 270px;
+  justify-content: center;
+
+}
+.project-peizag {
+  position: relative;
+  background-image: url('image/ЖК-лесной-пейзаж.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom center;
+  width:100%;
+  height: 1000px;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.project-peizag p{
+ position: absolute;
+ left: 240px;
+ top: 780px;
+ font-size: 30px;
+ font-weight: 400;
+ line-height: 100%;
+ color: rgba(255, 255, 255, 1);
+ width: 443px;
+ height: 82px;
+}
+
+.MAKS{
+  border-radius: 12px;
+  background-color: black;
+  color: #f5f5f5;
+  font-size: 40px;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  display: block;
+  
+}
+.Contacts{
+  width: 100%;
+  height:507px ;
+}
+
+.Contacts h2{
+
+font-weight: 400;
+font-size: 18px;
+text-transform: uppercase;
+color: rgba(18, 18, 18, 1);
+padding-left: 125px;
+
+}
+.PHONE{
+  padding-left: 125px;
+}
+.Zvonok{
+  color: rgba(0, 0, 0, 1);
+ font-size: 60px;
+ font-weight: 400;
+ letter-spacing: -3%;
+ text-align: left;
+ padding-left: 125px;
+ width: 472px;
+ height: 60px;
+ letter-spacing: -1.5px;
+ text-decoration: none;
+ margin-bottom: 30px;
+}
+
+.Contacts a{
+ display: block;
+ color: rgba(0, 0, 0, 1);
+ font-weight: 400;
+ font-size: 60px;
+ line-height: 60px;
+ padding-left: 125px;
+ 
+}
+.container-all-info{
+  position: relative;
+  width: 100%;
+  height:229px;
+  background-color: rgba(51,51,51, 1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-bottom{
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 60px;
+  gap: 50px;
   cursor: pointer;
+  transform: translateX(-50%);
 }
-.main-container{
-position: relative;
-width: 1400px;
-height: 560px;
-margin-left: 125px;
-}
-.main-text h1{
-font-size: 60px;
-line-height: 60px;
-width: 956px;
-height: 120px;
-font-weight: 400;
-letter-spacing: -1px;
-}
-.p-img{  
-position: relative;
-background-image: url('image/first-phone.png');
-background-repeat: no-repeat;
-margin-top: 30px;
-width: 1150px;
-height: 410px;
-padding-left: 40px;
-padding-top: 340px;
-padding-right: 680px;
-padding-bottom: 61px;
+.nav-bottom p a {
+  text-decoration: none;
+  color: inherit; 
 }
 
-.p-img p{
-position: absolute;
-font-weight: 400;
-width: 430px;
-height: 60px;
-font-size: 20px;
-color: white;
-letter-spacing: -0.5px;
-}
-.body-container{
-position: relative;
-width: 1051px;
-height: 518px;
-margin-top: 150px;
-margin-left: 128px;
-}
-.description-text h2{
-position: absolute;
-width: 53px;
-height: 25px;
-color: rgba(0, 0, 0, 1);
-font-size: 18px;
-font-weight: 400;
-line-height: 100%
-}
-.description-text p{
-position: absolute;
-padding-top: 30px;
-width: 1048px;
-height: 366px;
-color: rgba(0, 0, 0, 1);
-font-size: 45px;
-font-weight: 400;
-line-height: 100%;
-letter-spacing: -1.5px;
-}
-.button{
-position: absolute;
-margin-top: 426px;
-width: 255px;
-height: 67px;
-border: 2px solid;
-border-color:rgba(173, 24, 24, 1);
-transition: 0.3s ease;
-cursor: pointer;
-}
-
-.button:hover{
-background-color: rgba(173, 24, 24, 1);
-}
-
-
-.button p{
-    position: absolute;
-   width: 175px;
-   height: 27px; 
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 100%;
-   color: rgba(173, 24, 24, 1);
-   transition:color 0.3s ease;
-   padding-top: 0px;
-   padding-left: 40px;
+.name-bottom p {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 400;
 
 }
-.button p:hover{
-color: white;
+.nav-bottom p{
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+ font-size: 18px;
+ font-weight: 400;
 }
-.project-info-container{
-margin-left: 128px;
-}
-.project-info-container h2{
-width: 79px;
-height: 25px;
-font-size: 18px;
-line-height: 100%;
-font-weight: 400;
-}
-.Photo-PravBEREG p{
-width: 501px;
-height: 41px;
-font-size: 30px;
-font-weight: 400;
-line-height: 100%;
-letter-spacing: -1px;
-}
-.Photo-PravBEREG{
-    width: 1150px;
-    height: 450px;
-}
-.Photo-PravBEREG a{
-color:rgba(173, 24, 24, 1);
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-text-decoration: none;
-}
-.Photo-NORVEJ{
-margin-top: 188px;
-width: 1150px;
-height: 450px;
-}
-.Photo-NORVEJ p{
-width: 520px;
-height: 41px;
-font-size: 30px;
-font-weight: 400;
-line-height: 100%;
-letter-spacing: -1.5px;
-}
-.Photo-NORVEJ a{
-color:rgba(173, 24, 24, 1);
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-text-decoration: none;
-}
-.Photo-OZERA{
-margin-top: 188px;
-width: 1150px;
-height: 450px; 
-}
-.Photo-OZERA p{
-width: 530px;
-height: 41px;
-font-size: 30px;
-font-weight: 400;
-line-height: 100%;
-letter-spacing: -1.5px;
-}
-.Photo-OZERA a{
-color:rgba(173, 24, 24, 1);
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-text-decoration: none;
-}
-.button-all{
-position: relative;
-border: 1px solid;
-border-color: rgba(173, 24, 24, 1);
-height: 153px;
-width: 1150px;
-margin-top: 188px;
-transition: 0.3s ease;
-cursor: pointer;
-}
-.button-all:hover{
-background-color: rgba(173, 24, 24, 1); 
-}
-.button-all p{
-position: absolute;
-color:rgba(173, 24, 24, 1);
-width:1150px;
-height: 41px;
-padding-top: 28px;
-text-align: center;
-
-font-size: 30px;
-font-weight: 400;
- transition:color 0.3s ease;
-} 
-
-.button-all p:hover{
-    color:white
+.name-bottom p{
+  justify-content:center;
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+ font-size: 20px;
+ font-weight: 400;
+ bottom: 30px;
 }
