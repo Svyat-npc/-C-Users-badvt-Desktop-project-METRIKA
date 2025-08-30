@@ -148,7 +148,7 @@ body {
 }
 
 .project-info-container {
-  max-width: 1400px;
+  width: 1400px;
   margin: 0 auto;
   justify-content: center;
   padding-left: 125px;
@@ -159,7 +159,6 @@ body {
 
 .project-info-container h2{
   margin: 0;
-  width: 100%;
  color: rgba(0, 0, 0, 1);
  font-size: 18px;
  font-weight: 400;
@@ -180,6 +179,7 @@ body {
 .Photo-PravBEREG p,
 .Photo-NORVEJ p,
 .Photo-OZERA p {
+  width: 1150px;
   font-size: clamp(1.5rem, 4vw, 30px);
   line-height: 1.2;
 }
