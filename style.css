@@ -1,34 +1,31 @@
 html {
   scroll-behavior: smooth;
 }
-:root {
-  --side-padding: clamp(20px, 6vw, 125px);
-  --content-width: clamp(320px, 90vw, 1900px);
-}
-* {
+
+*{
   box-sizing: border-box;
 }
 
 body {
   font-family: "Manrope", sans-serif;
   background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
   width: 100%;
-  max-width: 1900px;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .header-container {
+  margin: 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  width: 100%;
-  margin: 26px auto 60px;
+  width: 1400px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 15px;
+  height: 128px;
 
 }
 .logo-img{
-  margin: auto 0;
+  width: 126px;
   padding-left: 125px;
 }
 
@@ -36,35 +33,39 @@ body {
 
 .nav-header {
   display: flex;
-  padding-left: 810px;
+  padding-left: 558px;
   padding-right: 124px;
-  gap: clamp(30px, 6vw, 60px);
+  gap:60px;
   cursor: pointer;
+  align-items: center;
+  
 
 }
-.nav-header p a {
+.nav-header a {
+  margin: 0;
   text-decoration: none;
   color: inherit; 
 }
 
 .main-container {
   margin: 0 auto;
-  height: auto;
-  margin-bottom: 150px;
-  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  padding-left: 125px;
+  padding-right: 125px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-bottom: 150px;
 }
 
 .main-text h1 {
-  line-height: 1.1;
-  max-width: 956px;
+  width: 956px;
   height: 120px;
-  padding-left: 125px;
-  padding-bottom: 30px;
   color: rgba(0, 0, 0, 1);
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
   letter-spacing:-2px;
+  margin-top: 0;
 }
 
 .p-img {
@@ -73,31 +74,32 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 410px;
+  width: 1150px;
+  height: 500px;
   display: flex;
   align-items: flex-end;
-  margin-left: 125px;
-  margin-right: 125px;
- 
 
 }
 
 .p-img p {
   position: absolute;
   color: white;
-  max-width: 430px;
+  width: 430px;
   font-size: 20px;
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -0.5px;
   left: 40px;
-  top:289px;
+  top:379px;
+  bottom: 40px;
 }
 
 .body-container {
-  padding-inline: 20px;
+  margin: 0 auto;
+  width: 1400px;
+  background-color: rgba(255, 255, 255, 1);
   padding-left: 125px;
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 
@@ -107,6 +109,7 @@ body {
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -1.5px;
+  margin-top: 0;
 }
 .body-container p{
   color: rgba(0, 0, 0, 1);
@@ -145,14 +148,17 @@ body {
 }
 
 .project-info-container {
-  max-width: 1920px;
+  max-width: 1400px;
   margin: 0 auto;
   justify-content: center;
   padding-left: 125px;
   padding-right: 125px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-bottom: 150px;
 }
 
 .project-info-container h2{
+  margin: 0;
   width: 100%;
  color: rgba(0, 0, 0, 1);
  font-size: 18px;
@@ -163,8 +169,8 @@ body {
 .Photo-PravBEREG img,
 .Photo-NORVEJ img,
 .Photo-OZERA img {
-  width: 100%;
-  height: auto;
+  width: 1150px;
+  height: 450px;
   display: block;
   margin-top: 90px;
  
@@ -193,7 +199,6 @@ color: rgba(173, 24, 24, 1);
   transition: 0.3s ease;
   text-align: center;
   margin-top: 90px;
-  margin-bottom: 150px;
 }
 
 .button-all:hover {
@@ -209,15 +214,17 @@ color: rgba(173, 24, 24, 1);
 .button-all p:hover {
   color: white;
 }
-.uslugi-container{
-  max-width: 1920px;
+.service-container{
+  max-width: 1400px;
   height: auto;
   margin: 0 auto;
   background-color: rgba(18, 18, 18, 1);
   padding-left: 125px;
   padding-right: 125px;
+  padding-bottom: 150px;
 }
-.uslugi-container h2{
+.service-container h2{
+  margin: 0;
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 400;
@@ -225,13 +232,13 @@ color: rgba(173, 24, 24, 1);
   padding-bottom: 34px;
   padding-top: 150px;
 }
-.uslugi-container p{
+.service-container p{
+  margin-bottom: 0;
   color: rgba(255, 255, 255, 1);
   font-size: 30px;
   font-weight: 400;
   line-height: 100%;
   text-align: left;
-  margin-bottom: 60px;
  max-width: 661px;
   height: 41px;
  letter-spacing: -1px;
@@ -245,22 +252,26 @@ color: rgba(173, 24, 24, 1);
   justify-content: center;
 
 }
+.Phone-komplektacia p{
+  padding-bottom: 150px;
+}
 .project-peizag {
+  margin: 0 auto;
   position: relative;
   background-image: url('image/ЖК-лесной-пейзаж.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position:bottom center;
-  width:100%;
-  height: 1000px;
+  width:1400px;
+  height: 717px;
   display: flex;
-  margin-bottom: 150px;
 }
 
 .project-peizag p{
+  margin: 0;
  position: absolute;
- left: 240px;
- top: 780px;
+ left: 125px;
+ top: 575px;
  font-size: 30px;
  font-weight: 400;
  line-height: 100%;
@@ -281,54 +292,54 @@ color: rgba(173, 24, 24, 1);
   
 }
 .Contacts{
-  width: 100%;
-  height:507px ;
+ background-color:rgba(255, 255, 255, 1);
+  width: 1400px;
+  height:553px ;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-left: 125px;
+  padding-right: 125px;
 }
 
 .Contacts h2{
-
+margin: 0;
+width: 90px;
 font-weight: 400;
 font-size: 18px;
 text-transform: uppercase;
 color: rgba(18, 18, 18, 1);
-padding-left: 125px;
+}
 
-}
-.PHONE{
-  padding-left: 125px;
-}
 .Zvonok{
   color: rgba(0, 0, 0, 1);
  font-size: 60px;
  font-weight: 400;
- letter-spacing: -3%;
  text-align: left;
- padding-left: 125px;
- width: 472px;
+ width: 600px;
  height: 60px;
  letter-spacing: -1.5px;
  text-decoration: none;
- margin-bottom: 30px;
+ line-height: 60px;
 }
 
 .Contacts a{
+  margin: 0;
  display: block;
  color: rgba(0, 0, 0, 1);
  font-weight: 400;
  font-size: 60px;
  line-height: 60px;
- padding-left: 125px;
  
 }
 .container-all-info{
   position: relative;
-  width: 100%;
+  margin: 0 auto;
+  width: 1400px;
   height:229px;
   background-color: rgba(51,51,51, 1);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100%;
 }
 
 .nav-bottom{
@@ -340,13 +351,14 @@ padding-left: 125px;
   cursor: pointer;
   transform: translateX(-50%);
 }
-.nav-bottom p a {
+.nav-bottom a {
   text-decoration: none;
-  color: inherit; 
+  color: #f5f5f5; 
 }
 
 .name-bottom p {
-  position: absolute;
+  margin: 0;
+  position: absolute;   
   left: 50%;
   bottom: 30px;
   transform: translateX(-50%);
@@ -370,113 +382,3 @@ padding-left: 125px;
  bottom: 30px;
 }
 
-@media (max-width: 768px) {
-  .header-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-    margin: 20px auto;
-  }
-
-  .logo-img {
-    padding-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .nav-header {
-    flex-direction: column;
-    padding: 0;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .main-text h1 {
-    font-size: clamp(2rem, 6vw, 3rem);
-    padding: 0 20px;
-    height: auto;
-    text-align: center;
-  }
-
-  .p-img {
-    margin: 0 20px;
-    height: 300px;
-  }
-
-  .p-img p {
-    font-size: 1rem;
-    left: 20px;
-    top: auto;
-    bottom: 20px;
-    max-width: 90%;
-  }
-
-  .body-container {
-    padding: 0 20px;
-  }
-
-  .body-container p {
-    font-size: 1.5rem;
-  }
-
-  .project-info-container {
-    padding: 0 20px;
-  }
-
-  .uslugi-container {
-    padding: 0 20px;
-  }
-
-  .uslugi-container p {
-    font-size: 1.2rem;
-    max-width: 100%;
-  }
-
-  .project-peizag {
-    height: 500px;
-    background-position: center;
-  }
-
-  .project-peizag p {
-    left: 20px;
-    top: auto;
-    bottom: 20px;
-    font-size: 1.2rem;
-    width: 90%;
-  }
-
-  .Contacts {
-    height: auto;
-    padding: 20px;
-  }
-
-  .Contacts h2,
-  .PHONE,
-  .Zvonok,
-  .Contacts a {
-    padding-left: 0;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-
-  .container-all-info {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-    align-items: center;
-  }
-
-  .nav-bottom {
-    position: static;
-    flex-direction: column;
-    gap: 15px;
-    transform: none;
-    margin-bottom: 20px;
-  }
-
-  .name-bottom p {
-    position: static;
-    transform: none;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-}
