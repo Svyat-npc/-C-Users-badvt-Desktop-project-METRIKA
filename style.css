@@ -215,7 +215,7 @@ color: rgba(173, 24, 24, 1);
   color: white;
 }
 .service-container{
-  max-width: 1400px;
+  width: 1400px;
   height: auto;
   margin: 0 auto;
   background-color: rgba(18, 18, 18, 1);
@@ -247,7 +247,7 @@ color: rgba(173, 24, 24, 1);
 .Phone-disain img,
 .Phone-Nadzor img,
 .Phone-komplektacia img{
-  width: 100%;
+  width: 1150px;
   height: 270px;
   justify-content: center;
 
