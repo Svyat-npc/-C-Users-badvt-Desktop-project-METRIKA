@@ -1,0 +1,117 @@
+
+.project-info-container {
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-left: 125px;
+  padding-right: 125px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-bottom: 150px;
+}
+
+.project-info-container h2{
+  margin: 0;
+ color: rgba(0, 0, 0, 1);
+ font-size: 18px;
+ font-weight: 400;
+}
+
+.Photo-PravBEREG img,
+.Photo-NORVEJ img,
+.Photo-OZERA img {
+  width: 1150px;
+  height: 450px;
+  display: block;
+  margin-top: 90px;
+}
+
+.Photo-PravBEREG p,
+.Photo-NORVEJ p,
+.Photo-OZERA p {
+  width: 1150px;
+  font-size: clamp(1.5rem, 4vw, 30px);
+  line-height: 1.2;
+}
+a{
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+color: rgba(173, 24, 24, 1);
+
+}
+.button-all {
+  width: 100%;
+  display: block;
+  height: auto;
+  border: 1px solid rgba(173, 24, 24, 1);
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.button-all:hover {
+  background-color: rgba(173, 24, 24, 1);
+}
+
+.button-all p {
+  font-size: clamp(1.5rem, 4vw, 30px);
+  color: rgba(173, 24, 24, 1);
+  transition: color 0.3s ease;
+}
+
+.button-all p:hover {
+  color: white;
+}
+
+@media (max-width:1199px){
+  .project-info-container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+  }
+
+.Photo-PravBEREG img,
+.Photo-NORVEJ img,
+.Photo-OZERA img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  margin-top: 90px;
+}
+
+.Photo-PravBEREG p,
+.Photo-NORVEJ p,
+.Photo-OZERA p {
+  width: 100%;
+  font-size: clamp(1.5rem, 4vw, 25px);
+  line-height: 1.2;
+}
+}
+
+@media (max-width:767px){
+  .project-info-container{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+  }
+
+.Photo-PravBEREG img,
+.Photo-NORVEJ img,
+.Photo-OZERA img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  margin-top: 90px;
+}
+
+.Photo-PravBEREG p,
+.Photo-NORVEJ p,
+.Photo-OZERA p {
+  width: 100%;
+  font-size: clamp(1.5rem, 4vw, 25px);
+  line-height: 1.2;
+} 
+}

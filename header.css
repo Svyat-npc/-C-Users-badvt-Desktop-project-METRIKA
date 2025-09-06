@@ -1,0 +1,33 @@
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 15px;
+  height: 128px;
+
+}
+.logo-img{
+  width: 126px;
+  padding-left: 125px;
+}
+
+
+
+.nav-header {
+  display: flex;
+  padding-left: 558px;
+  padding-right: 124px;
+  gap:60px;
+  cursor: pointer;
+  align-items: center;
+  
+
+}
+.nav-header a {
+  margin: 0;
+  text-decoration: none;
+  color: inherit; 
+}

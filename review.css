@@ -1,0 +1,262 @@
+
+.review-container{
+  margin: 0 auto;
+  width: 1400px;
+  display: block;
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 125px;
+  padding-bottom: 150px;
+  line-height: 100%;
+}
+
+.review-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 50px;
+
+}
+
+.review-box-first{
+  width: 528px;
+  height: 390px;
+}
+
+.review-container h2{
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 150px;
+}
+
+.review-box-first h3{
+ margin: 0;
+ width: 468px;
+ height: 61px;
+ font-size: 45px;
+ font-weight: 400;
+ letter-spacing: -1.5px;
+}
+
+
+.first-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.first-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+.review-box-second{
+  width: 528px;
+  height: 390px;
+}
+
+.review-box-second h2{
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 150px;
+}
+
+.review-box-second h3{
+ margin: 0;
+ width: 468px;
+ height: 61px;
+ font-size: 45px;
+ font-weight: 400;
+ letter-spacing: -1.5px;
+}
+
+
+.second-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.second-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+
+.review-box-third{
+  width: 861px;
+  height: 360px;
+   grid-column: 1 / span 2;
+}
+
+.review-box-third h2{
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 150px;
+}
+
+.review-box-third h3{
+ margin: 0;
+ width: 468px;
+ height: 61px;
+ font-size: 45px;
+ font-weight: 400;
+ letter-spacing: -1.5px;
+}
+
+
+.third-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.third-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+@media (max-width:1199px){
+.review-container{
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.review-box-first h3{
+ margin: 0;
+ width: 360px;
+ height: 61px;
+ font-size: 35px;
+}
+.first-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 20px;
+}
+.first-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.second-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 20px;
+}
+.second-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.third-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 20px;
+}
+.third-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+}
+
+
+@media (max-width:767px){
+.review-container{
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.review-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+.review-box-third{
+  width: 100%;
+  height: auto;
+   grid-column: auto
+}
+
+.review-box-first h3{
+ margin: 0;
+ width: 360px;
+ height: 61px;
+ font-size: 25px;
+}
+.first-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 20px;
+}
+.first-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+.second-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 20px;
+}
+.second-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.third-p1{
+  padding-top: 14px;
+  margin: 0;
+  font-size: 20px;
+}
+.third-p2{
+  padding-top: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+}
