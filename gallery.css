@@ -29,8 +29,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 717px;
     opacity: 0;
+    z-index: 0;
 }
 
 .gallery__slide_active{
@@ -41,7 +42,7 @@
 
 .box-image-first {
   margin: 0 auto;
-  height: 100%;
+  height:717px ;
   background-image: url('image/ЖК-лесной-пейзаж.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,21 +110,36 @@
  line-height: 100%;
 }
 
+.gallery-controls{
+ position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7px;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+
+}
+
 .gallery__control-prev,
 .gallery__control-next{
-    width: 50px;
-    height: 50px;
-    background: none;
-    padding: 0;
-    cursor: pointer;
-    position: absolute;
-    bottom: 162px;
+   width: 50px;
+  height: 50px;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+.gallery__control-prev:hover img,
+.gallery__control-next:hover img{
+   filter: brightness(0) saturate(100%) invert(50%) sepia(100%) hue-rotate(180deg);
+
 }
 .gallery__control-prev{
-  left: 125px;
 }
 .gallery__control-next{
-    left: 180px;
     transform: rotate(180deg);
 }
 
@@ -132,14 +148,33 @@
   .gallery-container {
     width: 100%;
   }
+  .gallery-slide{
+    height: 536px;
+  }
+  .gallery-title{
+    font-size: 22px;
+    left: 50px;
+  }
+  .gallery__control-prev, 
+  .gallery__control-next{
+    width: 40px;
+    height: 40px;
+    bottom: 152px;
+}
+  .gallery__control-prev{
+  left: 41px;
+}
+.gallery__control-next{
+    left: 95px;
+}
 
   .box-image-first,
   .box-image-second,
   .box-image-third,
   .box-image-fourth {
     margin: 0 auto;
-    width: 100%;
-    height: 717px; /* добавь это! */
+    width: 100vw;
+    height: 100%; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -150,5 +185,55 @@
   .text-image-third,
   .text-image-fourth {
     font-size: 25px;
+    height: 68px;
+    width: 377px;
+    left: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+   .gallery-container {
+    width: 100%;
+  }
+  .gallery-slide{
+    height: 408px;
+  }
+  .gallery-title{
+    font-size: 14px;
+  }
+  .gallery__control-prev, 
+  .gallery__control-next{
+    width: 40px;
+    height: 40px;
+    bottom: 189px;
+}
+  .gallery__control-prev{
+  left: 7px;
+}
+.gallery__control-next{
+    left: 340px;
+}
+
+
+  .box-image-first,
+  .box-image-second,
+  .box-image-third,
+  .box-image-fourth {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .text-image-first,
+  .text-image-second,
+  .text-image-third,
+  .text-image-fourth {
+   font-size: 19px;
+   width: 287px;
+   height: 52px;
+   left: 15px;
   }
 }

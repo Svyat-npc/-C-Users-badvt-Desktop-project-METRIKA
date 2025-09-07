@@ -35,7 +35,7 @@
 
 .review-box-first h3{
  margin: 0;
- width: 468px;
+ width: 100%;
  height: 61px;
  font-size: 45px;
  font-weight: 400;
@@ -152,13 +152,45 @@
 .review-container{
   margin: 0 auto;
   width: 100%;
+  height: auto;
   display: block;
   background-color: rgba(255, 255, 255, 1);
   padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 15px;
 }
+.review-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 50px;
+
+}
+
+.review-box-first{
+  width: clamp(280px, 45vw, 528px);
+}
+.review-box-second {
+  width: clamp(280px, 45vw, 528px);
+}
+.review-box-third {
+  width: clamp(280px, 90vw, 861px);
+}
+
 
 .review-box-first h3{
+ margin: 0;
+ width: 360px;
+ height: 61px;
+ font-size: 35px;
+}
+.review-box-second h3{
+ margin: 0;
+ width: 360px;
+ height: 61px;
+ font-size: 35px;
+}
+.review-box-third h3{
  margin: 0;
  width: 360px;
  height: 61px;
@@ -214,6 +246,17 @@
   grid-template-columns: 1fr;
 
 }
+.review-box-first{
+  width: 100%;
+  height: auto;
+   grid-column: auto
+}
+.review-box-second{
+  width: 100%;
+  height: auto;
+   grid-column: auto
+}
+
 .review-box-third{
   width: 100%;
   height: auto;
