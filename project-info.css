@@ -22,7 +22,7 @@
   width: 1150px;
   height: 450px;
   display: block;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 .Photo-PravBEREG p,
@@ -78,7 +78,7 @@ color: rgba(173, 24, 24, 1);
   width: 100%;
   height: 450px;
   display: block;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 .Photo-PravBEREG p,
@@ -97,14 +97,15 @@ color: rgba(173, 24, 24, 1);
     padding-right: 10px;
     padding-bottom: 100px;
   }
+  
 
 .Photo-PravBEREG img,
 .Photo-NORVEJ img,
 .Photo-OZERA img {
   width: 100%;
-  height: 450px;
+  height: 250px;
   display: block;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .Photo-PravBEREG p,

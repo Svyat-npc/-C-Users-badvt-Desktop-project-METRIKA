@@ -263,7 +263,9 @@
    grid-column: auto
 }
 
-.review-box-first h3{
+.review-box-first h3,
+.review-box-second h3,
+.review-box-third h3{
  margin: 0;
  width: 360px;
  height: 61px;
@@ -272,12 +274,12 @@
 .first-p1{
   padding-top: 14px;
   margin: 0;
-  font-size: 20px;
+  font-size:16px;
 }
 .first-p2{
   padding-top: 30px;
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 100%;
   letter-spacing: -1px;
@@ -285,21 +287,21 @@
 .second-p1{
   padding-top: 14px;
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 .second-p2{
   padding-top: 30px;
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .third-p1{
   padding-top: 14px;
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 .third-p2{
   padding-top: 30px;
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 16px;
 }
 }
