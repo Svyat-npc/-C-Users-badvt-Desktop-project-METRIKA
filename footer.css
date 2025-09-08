@@ -82,12 +82,16 @@
 
 .nav-bottom{
   gap: 10px;
+  top:30px;
+  letter-spacing: -0.5px;
 }
 .nav-bottom a {
   font-size: 12px;
   }
 
 .name-bottom p {
+  max-width: 253px;
   font-size: 13px;
+  letter-spacing: -0.5px;
 }
 }
