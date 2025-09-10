@@ -72,26 +72,52 @@
             </section>
             <div class="phone-wrapper">
               <div class="box-plan">
+                 <div class="box-plan-red">от 2500₽/м²</div>
                  <img src="image/ПЛАНИРОВАНИЕ.png" alt="">
                  <p>Планировочное решение</p>
                </div>
                <div class="box-disain">
+                <div class="box-disain-red">от 3000₽/м²</div>
                  <img src="image/Дизайн-проект.png" alt="">
                  <p>Дизайн-проект</p>
                </div>
                <div class="box-Nadzor">
+                <div class="box-Nadzor-red">от 30 000₽/м²</div>
                  <img src="image/Авторский-надзор.png" alt="">
                  <p>Авторский надзор </p>
                </div>
                <div class="box-komplektacia">
+                <div class="box-komplektacia-red">5% от стоимости</div>
                   <img src="image/Комплектация-скидка.png" alt="">
                  <p>Комплектация</p>
                </div>
             </div>
-            <button class="button-uslugi-menu">
-               Заказать услугу
-            </button>
-        </div>
+        </div>    
+        <button class="js-btn">Заказать услугу</button>
+            <div class=" js-popup popup">
+                <div class="js-popup__content popup__content">
+                    <h1 class="popup__title">Заказать услугу</h1>
+                    <p1 class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p1>
+                  <div class="container-input">
+                      <input
+                      class="popup-name"
+                      type="text"
+                      placeholder="Имя">
+                      <input
+                      class="popup-email"
+                      type="text"
+                      placeholder="Email">
+                      <input
+                      class="popup-number"
+                      type="text"
+                      placeholder="Номер телефона">
+                  </div>
+                    <button class="btn-send">Отправить</button>
+                    <div class="js-popup__close-btn popup__close-btn">
+                        <img class="radix-close" src="image/radix.png" alt="">
+                    </div>
+                </div>
+            </div>
     </div>
     <div class="review-container">
         <h2>ОТЗЫВЫ</h2>
@@ -181,9 +207,10 @@
           <a href="#contact">КОНТАКТЫ</a>
         </nav>
         <div class="name-bottom">
-                <p>студия дизайна интерьера Метрика — 2023</p>
+             <p>студия дизайна интерьера Метрика — 2023</p>
         </div>
     </div>  
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
 </body>
-</html>
+</html> 

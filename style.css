@@ -24,6 +24,9 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.body_fixed{
+  overflow: hidden;
+}
 
 .MAKS{
   border-radius: 12px;
