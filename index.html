@@ -11,8 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-<!--
     <div class="header-container">
         <div class="logo-img">
             <img src="image/Метрика.png" alt="">
@@ -23,8 +21,24 @@
           <a href="#services">УСЛУГИ</a>
           <a href="#contact">КОНТАКТЫ</a>
        </nav>
+       <button class="burger-btn js-burger-btn">
+        <img src="image/burger-btn.png">
+       </button>
     </div>
--->
+    <div class="burger js-burger">
+          <div class="burger-content js-burger__content">
+            <img class="logo-burger" src="image/Метрика.png" alt="">
+            <nav class="nav-burger">
+               <a href="#about">О НАС</a>
+               <a href="#project">ПРОЕКТЫ</a>
+               <a href="#services">УСЛУГИ</a>
+               <a href="#contact">КОНТАКТЫ</a>
+            </nav>
+          </div>
+          <div class="js-burger__close-btn burger__close-btn">
+             <img class="burger-close" src="image/radix.png" alt="">
+          </div>
+    </div>
     <div class="main-container">
         <div class="main-text">
             <h1>Современные и стильные интерьеры для комфортной жизни</h1>
@@ -212,5 +226,6 @@
     </div>  
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
 </body>
 </html> 
