@@ -87,7 +87,6 @@
 .container-input{
  display: flex;
  flex-direction: column;
- margin-bottom: 50px;
  max-width:643px;
  width: 100%;
 
@@ -187,7 +186,7 @@
 }
 
 @media (max-width:767px){
-  .{
+  .SERVICE{
   width: 100%;
   margin: 0 auto;
   padding-left: 10px;
