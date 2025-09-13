@@ -42,15 +42,16 @@
   background-color: rgba(173, 24, 24, 1);
 }
 
-.button p {
+.button a{
   color: rgba(173, 24, 24, 1);
   font-size: 20px;
   text-align: center;
   margin: 0;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
-.button p:hover {
+.button a:hover {
   color: white;
 }
 
@@ -85,7 +86,7 @@
   }
 
 
- .button p {
+ .button a {
    font-size: 20px;
  }
 }
@@ -118,7 +119,7 @@
   }
 
 
- .button p {
+ .button a {
    font-size: 16px;
    text-align: center;
  }

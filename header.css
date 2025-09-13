@@ -63,6 +63,9 @@
 }
 
 .nav-burger{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 color: rgba(0, 0, 0, 1);
 font-size: 25px;
 font-weight: 400;
@@ -89,9 +92,15 @@ text-align: left;
     padding-left: 20px;
     padding-right: 20px;
   }
+  .burger-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
 
   .logo-img {
-    padding-left: 0;
+    padding-left: 0px;
   }
   .burger-btn{
     display: block;
@@ -103,9 +112,6 @@ text-align: left;
     right: 34px;
   }
   .nav-burger {
-   display: flex;
-  flex-direction: column;
-  gap:20px;
   cursor: pointer;
   align-items: center;
 }
@@ -127,6 +133,9 @@ text-align: left;
   }
   .burger-close{
     display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
   }
 
 }
